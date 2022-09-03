@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+    com.atuldwivedi.starter.execution.time.tracker.autoconfig.ExecutionTimeTrackerAutoConfiguration
