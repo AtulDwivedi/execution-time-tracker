@@ -11,4 +11,8 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ElementType.METHOD})
 public @interface TrackExecutionTime {
+
+    String logMessagePrefix() default "";
+
+    String logLevel() default "";
 }
